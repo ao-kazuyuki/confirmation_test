@@ -1,0 +1,67 @@
+.contact-form__heading {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #F1F1F1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-form__heading--title {
+    font-size: 32px;
+    color: #8B7969;
+}
+
+table {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid #F0F0F0;
+    padding: 15px 30px 15px 30px;
+}
+
+table th:first-child {
+    width: 300px;
+    background-color: #BBA99A;
+}
+
+.contact-form__label {
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: left;
+    vertical-align: top;
+}
+
+.contact-form__input {
+    font-size: 16px;
+    color: #8B7969;
+    margin-right: 75px;
+}
+
+.contact-form__button {
+    text-align: center;
+}
+
+.contact-form__button--submit {
+    padding: 8px 40px 8px 40px;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    background: #82756A;
+    cursor: pointer;
+}
+
+.contact-form__button--retry {
+    font-size: 18px;
+    color: #82756A;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #82756A;
+    background: #ffffff;
+    margin-left: 50px;
+}

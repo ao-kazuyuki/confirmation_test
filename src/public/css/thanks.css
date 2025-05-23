@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20vw;
+    color: rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
+    z-index: 0;
+}
+
+.message {
+    position: relative;
+    z-index: 1;
+    font-size: 32px;
+    font-weight: bold;
+    color: #82766A;
+}
+
+.botton-link {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.button-link__home {
+    z-index: 1;
+    padding: 8px 20px 8px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    background: #82756A;
+    text-decoration: none;
+}
