@@ -5,7 +5,7 @@
     <dt>Dockerビルド</dt>
     <dd>1. git clone git@github.com:ao-kazuyuki/confirmation_test.git</dd>
     <dd>2. cd confirmation_test</dd>
-    <dd>2. docker-compose up -d --build</dd>
+    <dd>3. docker-compose up -d --build</dd>
 </dl>
 
 <dl>
