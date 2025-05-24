@@ -9,10 +9,6 @@
 </dl>
 
 <dl>
-    <dt>* MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集してください。</dt>
-</dl>
-
-<dl>
     <dt>Laravel環境構築</dt>
     <dd>1. docker-compose exec php bash</dd>
     <dd>2. composer install</dd>
@@ -24,9 +20,11 @@
     <dd>DB_DATABASE=laravel_db</dd>
     <dd>DB_USERNAME=laravel_user</dd>
     <dd>DB_PASSWORD=laravel_pass</dd>
-    <dd>7. php artisan key:generate</dd>
-    <dd>8. php artisan migrate</dd>
-    <dd>9. php artisan db:seed</dd>
+    <dd>7. docker-compose exec php bash</dd>
+    <dd>8. php artisan key:generate</dd>
+    <dd>9. php artisan migrate</dd>
+    <dd>10. php artisan db:seed</dd>
+    <dd>11. http://localhost/ にアクセスして動作確認</dd>
 </dl>
 
 ## 使用技術
