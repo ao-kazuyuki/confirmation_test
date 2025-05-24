@@ -42,6 +42,10 @@
 }
 
 .sub-menu__export--button {
+    margin-bottom: 15px;
+}
+
+.sub-menu__export--button {
     font-size: 14px;
     color: #8B7969;
     padding: 10px 15px 10px 15px;
@@ -86,6 +90,7 @@ span.relative a {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #E4E3E2;
 }
 
 .contact-list__header {
@@ -105,6 +110,8 @@ span.relative a {
     background: #ffffff;
     border-style: solid;
     border-width: 1px;
+    border-right: none;
+    border-left: none;
 }
 
 .detail-button {

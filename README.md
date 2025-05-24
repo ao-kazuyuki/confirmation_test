@@ -20,10 +20,10 @@
     <dd>4. cd src</dd>
     <dd>5. cp .env.example .env</dd>
     <dd>6. .envファイル内の下記の項目を以下のように修正</dd>
-    <dd>   DB_HOST=mysql</dd>
-    <dd>   DB_DATABASE=laravel_db</dd>
-    <dd>   DB_USERNAME=laravel_user</dd>
-    <dd>   DB_PASSWORD=laravel_pass</dd>
+    <dd>DB_HOST=mysql</dd>
+    <dd>DB_DATABASE=laravel_db</dd>
+    <dd>DB_USERNAME=laravel_user</dd>
+    <dd>DB_PASSWORD=laravel_pass</dd>
     <dd>7. php artisan key:generate</dd>
     <dd>8. php artisan migrate</dd>
     <dd>9. php artisan db:seed</dd>
