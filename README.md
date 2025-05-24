@@ -16,10 +16,17 @@
     <dt>Laravel環境構築</dt>
     <dd>1. docker-compose exec php bash</dd>
     <dd>2. composer install</dd>
-    <dd>3. .env.exampleファイルから.envを作成し、環境変数を変更</dd>
-    <dd>4. php artisan key:generate</dd>
-    <dd>5. php artisan migrate</dd>
-    <dd>6. php artisan db:seed</dd>
+    <dd>3. exit
+    <dd>4. cd src</dd>
+    <dd>5. cp .env.example .env</dd>
+    <dd>6. .envファイル内の下記の項目を以下のように修正</dd>
+    <dd>   DB_HOST=mysql</dd>
+    <dd>   DB_DATABASE=laravel_db</dd>
+    <dd>   DB_USERNAME=laravel_user</dd>
+    <dd>   DB_PASSWORD=laravel_pass</dd>
+    <dd>7. php artisan key:generate</dd>
+    <dd>8. php artisan migrate</dd>
+    <dd>9. php artisan db:seed</dd>
 </dl>
 
 ## 使用技術
