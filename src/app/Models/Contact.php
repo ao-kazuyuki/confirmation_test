@@ -40,7 +40,7 @@ class Contact extends Model
             $query->where('category_id', $category_id);
         }
         if(!empty($created_at)){
-            $query->whereDate('created_at', $created_at );
+            $query->whereDate('created_at', $created_at);
         }
         return $query;
     }
